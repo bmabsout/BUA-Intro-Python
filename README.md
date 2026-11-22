@@ -2,50 +2,32 @@
 
 ## Start today's class
 
-Sign in to GitHub, click the button for the class, then click **Create codespace**
-or **Resume codespace**. The first start takes a few minutes while the notebook
-tools install.
+Sign in to a Google account, then click the button for the class. The notebook
+opens in Google Colab, ready to edit. Click a cell and press Shift+Enter to
+run it.
 
-The class notebook then opens in a browser tab, ready to edit. Click a cell and
-press Shift+Enter to run it. If the notebook tab does not open, select the
-**Ports** panel and open **Jupyter notebook**.
-
-| Class | Start |
+| Class | Open |
 | --- | --- |
-| 1. Notebooks | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-1%2Fdevcontainer.json) |
-| 2. Statements | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-2%2Fdevcontainer.json) |
-| 3. Composite Types | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-3%2Fdevcontainer.json) |
-| 4. Control Structures | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-4%2Fdevcontainer.json) |
-| 5. Loops | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-5%2Fdevcontainer.json) |
-| 6. Libraries and Graphics | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-6%2Fdevcontainer.json) |
-| 7. Functions | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-7%2Fdevcontainer.json) |
-| 8. Bringing it all Together | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bmabsout/BUA-Intro-Python?quickstart=1&devcontainer_path=.devcontainer%2Fclass-8%2Fdevcontainer.json) |
+| 1. Notebooks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/1_Notebooks.ipynb) |
+| 2. Statements | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/2_Statements.ipynb) |
+| 3. Composite Types | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/3_Composite_Types.ipynb) |
+| 4. Control Structures | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/4_Control_Structures.ipynb) |
+| 5. Loops | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/5_Loops.ipynb) |
+| 6. Libraries and Graphics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/6_Libraries_and_Graphics.ipynb) |
+| 7. Functions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/7_Functions.ipynb) |
+| 8. Bringing it all Together | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmabsout/BUA-Intro-Python/blob/main/bua_1/8_Bringing_it_all_Together.ipynb) |
 
-Use the same button next time to resume that class. You do not need to edit
-these links. The first backup creates a fork on your GitHub account if you do
-not already have one. If your teacher asked you to fork first, that is fine
-too. If the backup terminal says it could not link your fork, fork this
-repository and tell your teacher.
+Before editing, choose **File > Save a copy in Drive**. Work in that copy.
+Colab does not automatically save changes back to GitHub. Use the same Drive
+copy when you return to a class.
 
-Notebook edits are saved automatically. Every five minutes, while the Codespace
-is open, those saved files are committed and pushed to your fork. Keep the
-backup terminal open so you can see errors. Use only one class Codespace at a
-time, and stop it when you finish so you do not use up your free hours. Changes
-made in the last few minutes may not have been pushed yet. A stopped Codespace
-keeps its files, but an inactive Codespace can be deleted after 30 days and
-takes unpushed work with it.
-
-Do not put passwords or other secrets in the repository. The `student_work/`
-directory is ignored and is not backed up. Turtle graphics need a desktop and
-do not work in this browser setup.
-
-GitHub accounts include a limited amount of free Codespaces use. See
-[GitHub's usage guide](https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-included-usage).
+NumPy and Matplotlib are already available. Turtle graphics do not work in
+Colab, so the drawing exercises in classes 6–8 will not display.
 
 ## Run Jupyter on your own computer
 
-This works the same way on Windows, macOS, and Linux. It does not back up to
-GitHub automatically.
+This is optional. It works the same way on Windows, macOS, and Linux, and it
+does not save to GitHub automatically.
 
 1. Install [Git](https://git-scm.com/install/) and
    [uv](https://docs.astral.sh/uv/getting-started/installation/).
@@ -79,5 +61,4 @@ GitHub automatically.
    powershell -ExecutionPolicy Bypass -File .\scripts\start-jupyter.ps1
    ```
 
-uv installs Python 3.12 if needed, then opens Jupyter in your browser. Choose a
-notebook in `bua_1`. Stop it with Ctrl+C in the terminal.
+Choose a notebook in `bua_1`. Stop Jupyter with Ctrl+C.
