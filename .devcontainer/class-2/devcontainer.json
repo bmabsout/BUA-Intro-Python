@@ -1,0 +1,28 @@
+{
+  "name": "BUA 1 - Statements",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "python -m pip install --user -r requirements.txt && python -m ipykernel install --user --name python3 --display-name \"Python 3\"",
+  "forwardPorts": [
+    8888
+  ],
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter notebook",
+      "onAutoForward": "openBrowser",
+      "visibility": "private"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "task.allowAutomaticTasks": "on"
+      }
+    }
+  },
+  "postStartCommand": "bash .devcontainer/start.sh bua_1/2_Statements.ipynb"
+}
